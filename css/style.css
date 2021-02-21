@@ -1,0 +1,53 @@
+body{
+    margin: 5%;
+    display: grid;
+    justify-content: center;
+
+}
+.title{
+    color: #16697a;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.entry-textbook{
+    background-color: #ffa62b;
+    width: 22em;
+    height: 10em;
+    padding: 1em;
+    border-radius: 25px;
+    margin-bottom: 1em;
+    border: unset;
+}
+.entry-textbook:focus{
+    outline: none;
+}
+
+#entryform .button{
+    border: unset;
+    border-radius: 5px;
+    padding: 5px 16px;
+    margin-left: 70%;
+}
+
+#entries{
+    background-color: #16697a;
+    color: #ede7e3;
+    font-family: cursive;
+    padding: 2em;
+    max-width: 20em;
+    border:unset;
+    border-radius: 25px;
+    margin-top: 1em;
+}
+
+.entries-nav{
+    padding-bottom: 1em;
+
+}
+
+.display-entry-button{
+    margin: 0.2em;
+}
+.display-entry-button:hover{
+    cursor: pointer;
+}
